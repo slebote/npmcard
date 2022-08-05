@@ -1,14 +1,14 @@
 {
-  "name": "npmcard",
+  "name": "slebote",
   "version": "2.1.1",
   "description": "A personal card for Sébastien LE BOTE (@slebote) - forked project",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "slebote": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/slebote/npmcard.git"
   },
   "homepage": "https://bnb.im",
   "scripts": {
