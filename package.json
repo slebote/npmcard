@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/slebote/npmcard.git"
   },
-  "homepage": "https://bnb.im",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
