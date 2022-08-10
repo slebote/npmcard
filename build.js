@@ -22,7 +22,7 @@ const data = {
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('slebote'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
   github: chalk.gray('https://github.com/') + chalk.green('slebote'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('slebote'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('sebastienlebote'),
   web: chalk.cyan('https://www.norsys.fr'),
   npx: chalk.red('npx') + ' ' + chalk.white('slebote'),
   labelWork: chalk.white.bold('    Work:'),
@@ -42,8 +42,8 @@ const working = `${data.labelWork}  ${data.work}`
 // const twittering = `${data.labelTwitter}  ${data.twitter}`
 // const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
-// const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
-const webing = `${data.labelWeb}  ${data.web}`
+const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
+// const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
 // Put all our output together into a single variable so we can use boxen effectively
@@ -53,8 +53,8 @@ const output = heading + // data.name + data.handle
                // twittering + newline + // data.labelTwitter + data.twitter
                // npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
-               // linkedining + newline + // data.labelLinkedIn + data.linkedin
-               webing + newline + newline + // data.labelWeb + data.web
+               linkedining + newline + newline + // data.labelLinkedIn + data.linkedin
+               // webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
 fs.writeFileSync(path.join(__dirname, 'bin/output'), chalk.green(boxen(output, options)))
