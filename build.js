@@ -18,7 +18,7 @@ const data = {
   name: chalk.white('           Sébastien LE BOTE'),
   handle: chalk.white('@slebote'),
   shorthandle: chalk.white('bnb'),
-  work: chalk.white('Senior web developer @norsys'),
+  work: chalk.white('Senior developer @norsys'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('slebote'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
   github: chalk.gray('https://github.com/') + chalk.green('slebote'),
